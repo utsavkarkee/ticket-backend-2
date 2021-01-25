@@ -15,7 +15,7 @@ import javax.persistence.Table;
 @Table
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Userssss {
     @Id
     private int id;
 
