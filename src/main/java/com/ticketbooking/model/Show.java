@@ -31,17 +31,17 @@ public class Show {
         this.endTime = endTime;
     }
 
-    public int getMovie() {
-        return movieId;
+    public String getMovieName() {
+        return movieName;
     }
 
-    public void setMovie(int movieId) {
-        this.movieId = movieId;
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
     }
 
     private String startTime;
 
     private String endTime;
 
-    private int movieId;
+    private String movieName;
 }

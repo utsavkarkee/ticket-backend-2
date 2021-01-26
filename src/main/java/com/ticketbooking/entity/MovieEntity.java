@@ -31,4 +31,8 @@ public class MovieEntity {
         this.duration = duration;
         this.genre = genre;
     }
+
+    public MovieEntity(){
+
+    }
 }
