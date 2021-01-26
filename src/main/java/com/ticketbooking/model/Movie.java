@@ -28,6 +28,14 @@ public class Movie {
         this.genre = genre;
     }
 
+    public Movie(){
+
+    }
+    public Movie(String title, int duration, String genre){
+        this.title = title;
+        this.duration = duration;
+        this.genre = genre;
+    }
     private int duration;
     private String genre;
 }

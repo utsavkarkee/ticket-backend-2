@@ -26,6 +26,9 @@ dependencies {
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
     runtimeOnly 'org.postgresql:postgresql'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    compile group: 'org.json', name: 'json', version: '20200518'
+    compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.5'
 }
 
 test {

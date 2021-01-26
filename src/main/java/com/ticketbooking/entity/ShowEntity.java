@@ -1,6 +1,7 @@
 package com.ticketbooking.entity;
 
 
+import com.ticketbooking.model.Show;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
@@ -35,6 +36,10 @@ public class ShowEntity {
         this.startTime= startTime;
         this.endTime = endTime;
         this.movie = movie;
+    }
+
+    public ShowEntity(){
+
     }
 
 }
